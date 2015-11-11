@@ -136,7 +136,7 @@
         __weak typeof(self) weak = self;
         [self.dataArray enumerateObjectsUsingBlock:^(NSString *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             UIImageView *imageView = [[UIImageView alloc]initWithFrame:self.scrollView.frame];
-            [imageView sd_setImageWithURL:[NSURL URLWithString:obj] placeholderImage:[UIImage imageNamed:@"banner_default"]];
+            [imageView sd_setImageWithURL:[NSURL URLWithString:obj] placeholderImage:self.placeHoldImage];
             [weak.imageArray addObject:imageView];
         }];
         _pageControl.numberOfPages = self.dataArray.count;

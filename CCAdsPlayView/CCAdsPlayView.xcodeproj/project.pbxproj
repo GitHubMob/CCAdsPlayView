@@ -30,6 +30,7 @@
 		ED0F9BF31BF3179700D59622 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0F9BE11BF3179700D59622 /* UIImageView+HighlightedWebCache.m */; };
 		ED0F9BF41BF3179700D59622 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0F9BE31BF3179700D59622 /* UIImageView+WebCache.m */; };
 		ED0F9BF51BF3179700D59622 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0F9BE51BF3179700D59622 /* UIView+WebCacheOperation.m */; };
+		ED0F9BF71BF31D1700D59622 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0F9BF61BF31D1700D59622 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		ED0F9BE31BF3179700D59622 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		ED0F9BE41BF3179700D59622 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		ED0F9BE51BF3179700D59622 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		ED0F9BF61BF31D1700D59622 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		ED0F9B6C1BF30CA000D59622 = {
 			isa = PBXGroup;
 			children = (
+				ED0F9BF61BF31D1700D59622 /* Default-568h@2x.png */,
 				ED0F9B771BF30CA000D59622 /* CCAdsPlayView */,
 				ED0F9B761BF30CA000D59622 /* Products */,
 			);
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED0F9B881BF30CA000D59622 /* LaunchScreen.storyboard in Resources */,
+				ED0F9BF71BF31D1700D59622 /* Default-568h@2x.png in Resources */,
 				ED0F9B851BF30CA000D59622 /* Assets.xcassets in Resources */,
 				ED0F9B831BF30CA000D59622 /* Main.storyboard in Resources */,
 			);
